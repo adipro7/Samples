@@ -1,5 +1,6 @@
 import Complexity.TimeComplexity;
 import Constructor.Constructor;
+import Patterns.Pattern;
 import Static.StaticExplain;
 
 public class Main {
@@ -21,8 +22,10 @@ public class Main {
         // object2.getCountObjects(2);
         // object2.getCountObjects(2);
 
-        TimeComplexity tc = new TimeComplexity();
-        System.out.println(tc.isPrimeWay1(97000554));
-        System.out.println(tc.isPrimeWay2(97000554));
+        // TimeComplexity tc = new TimeComplexity();
+        // System.out.println(tc.isPrimeWay1(97000554));
+        // System.out.println(tc.isPrimeWay2(97000554));
+        Pattern p = new Pattern(5);
+        p.printPattern();
     }
 }
