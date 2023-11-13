@@ -6,7 +6,8 @@ import Static.StaticExplain;
 public class Main {
     public static void main(String ar[]) {
         System.out.println("Hello World");
-        //Constructor constructor = new Constructor();
+        Constructor constructor = new Constructor(15);
+        System.out.println(constructor.num);
         // StaticExplain object1 = new StaticExplain();
         // StaticExplain object2 = new StaticExplain();
         // // object1.operate();
@@ -25,7 +26,7 @@ public class Main {
         // TimeComplexity tc = new TimeComplexity();
         // System.out.println(tc.isPrimeWay1(97000554));
         // System.out.println(tc.isPrimeWay2(97000554));
-        Pattern p = new Pattern(5);
-        p.printPattern();
+        // Pattern p = new Pattern(5);
+        // p.printPattern();
     }
 }
